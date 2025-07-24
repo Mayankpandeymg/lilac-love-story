@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Heart, ArrowDown } from "lucide-react";
-import heroImage from "@/assets/hero-image.jpg";
+import happyHero from "@/assets/happy-hero.jpg";
 
 export const HeroSection = () => {
   const scrollToGallery = () => {
@@ -13,11 +13,11 @@ export const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src={heroImage} 
+          src={happyHero} 
           alt="Hero" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-lilac-dark/40 via-primary/30 to-pink-accent/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 via-lilac/30 to-pink-accent/20" />
       </div>
       
       {/* Content */}
@@ -26,14 +26,14 @@ export const HeroSection = () => {
           <Heart className="w-16 h-16 text-white mx-auto mb-8 animate-romantic-pulse" />
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            My Beautiful
-            <span className="block bg-gradient-to-r from-lilac-light to-pink-accent bg-clip-text text-transparent">
-              Love Story
+            Stay Happy
+            <span className="block bg-gradient-to-r from-yellow-300 to-pink-accent bg-clip-text text-transparent">
+              My Sunshine
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed">
-            A celebration of the most wonderful person in my life, captured in photos and memories that tell her beautiful story
+            Every moment with you is a reminder to embrace joy, spread smiles, and keep our hearts full of happiness together
           </p>
           
           <Button 
