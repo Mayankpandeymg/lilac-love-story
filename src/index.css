@@ -8,26 +8,43 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 310 15% 97%;
+    --foreground: 280 10% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 315 20% 95%;
+    --card-foreground: 280 10% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 315 20% 95%;
+    --popover-foreground: 280 10% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 285 85% 65%;
+    --primary-foreground: 310 15% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 300 40% 85%;
+    --secondary-foreground: 280 10% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 310 30% 90%;
+    --muted-foreground: 285 15% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 275 75% 70%;
+    --accent-foreground: 310 15% 97%;
+
+    /* Love theme specific colors */
+    --lilac: 285 85% 65%;
+    --lilac-light: 290 60% 80%;
+    --lilac-dark: 280 90% 50%;
+    --pink-accent: 320 85% 75%;
+    --lavender: 270 50% 85%;
+    
+    /* Beautiful gradients */
+    --gradient-romantic: linear-gradient(135deg, hsl(285 85% 65%), hsl(320 85% 75%));
+    --gradient-subtle: linear-gradient(180deg, hsl(315 20% 98%), hsl(310 30% 92%));
+    --gradient-hero: linear-gradient(45deg, hsl(285 85% 65%) 0%, hsl(300 75% 70%) 50%, hsl(320 85% 75%) 100%);
+    
+    /* Elegant shadows */
+    --shadow-romantic: 0 20px 40px -10px hsl(285 85% 65% / 0.3);
+    --shadow-soft: 0 8px 25px -5px hsl(285 50% 60% / 0.2);
+    --shadow-glow: 0 0 50px hsl(285 85% 65% / 0.4);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
