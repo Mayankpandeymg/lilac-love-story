@@ -8,39 +8,39 @@ const photos = [
     id: 1,
     image: photo1,
     title: "Her Radiant Smile",
-    personality: "Her smile lights up every room she enters. There's something magical about the way her eyes crinkle when she laughs, and how her whole face transforms with pure joy. She has this incredible ability to make everyone around her feel special and loved.",
+    personality: "Her Smile, HMM HER SMILE. I mean how can I even describe her smile to be. Like a ray , no no something more precious , How can I even name something more precious than herself but this time her smile takes over her 'PRECIOUSNESS'",
     traits: [
       "Illuminates any room with her presence",
       "Has the most infectious laugh",
-      "Makes everyone feel welcome and valued",
-      "Radiates warmth and positivity",
+      "Had me glaze her smile so much , now I am making a goddamn website for her",
+      "Precious",
       "Her smile is my favorite sight in the world"
     ]
   },
   {
     id: 2,
     image: photo2,
-    title: "Her Joyful Spirit",
-    personality: "She approaches life with such enthusiasm and wonder. Every day is an adventure with her, and she finds beauty in the smallest things. Her optimism is contagious, and she has taught me to see the world through more colorful lenses.",
+    title: "Her 'RUDE'[Not so rude] behaviour",
+    personality: "She taught almost every thing in my life. From love to heartbreaks, from being at the top of the world to the most bottom.",
     traits: [
-      "Finds magic in everyday moments",
-      "Approaches challenges with grace",
-      "Has an adventurous and curious heart",
-      "Spreads joy wherever she goes",
+      "I know how much she had to suffer for her dreams",
+      "Eventually she is finding her path somehow now",
+      "I admire her resilience and strength",
+      "She is the BEST , I mean the best",
       "Makes ordinary days feel extraordinary"
     ]
   },
   {
     id: 3,
     image: photo3,
-    title: "Her Peaceful Nature",
-    personality: "There's a serene quality about her that brings calm to any storm. She has this amazing ability to listen deeply and offer comfort without judgment. Her peaceful presence is like a safe harbor where I can always find rest.",
+    title: "Her Cat-Mom Issues",
+    personality: "Naah meri English Khatam, par main samajh sakta hoon. She made me into a cat person myself. I cant believe that somehow I , THE GREAT MAYANK PANDEY , had to cry out loud for a cat mommy. I am , as I am making this website for her.",
     traits: [
-      "Brings tranquility to chaotic moments",
-      "Listens with her whole heart",
-      "Offers comfort without words",
-      "Has a wise and gentle soul",
-      "Makes me feel completely understood"
+      "Sudden mood changes like a cat",
+      "Mommy to the cutest cats",
+      "Buys cat accessories like a pro",
+      "Mujhe bhi paal le pleeeeejjjj 😿",
+      "ILOVEYOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU 😿"
     ]
   }
 ];
@@ -55,7 +55,7 @@ export const PhotoGallery = () => {
             <span className="bg-gradient-romantic bg-clip-text text-transparent"> Beautiful</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in">
-            Click on each photo to discover the wonderful personality traits that make her so special
+            Click on each photo to discover "HER"
           </p>
         </div>
         
