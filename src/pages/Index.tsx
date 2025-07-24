@@ -1,5 +1,6 @@
 import { HeroSection } from "@/components/HeroSection";
 import { PhotoGallery } from "@/components/PhotoGallery";
+import { FavoriteThings } from "@/components/FavoriteThings";
 import { Heart } from "lucide-react";
 
 const Index = () => {
@@ -10,6 +11,9 @@ const Index = () => {
       <div id="gallery">
         <PhotoGallery />
       </div>
+
+      {/* Favorite Things Section */}
+      <FavoriteThings />
       
       {/* Footer */}
       <footer className="py-12 text-center border-t border-lilac-light/20">

@@ -119,4 +119,42 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Floating animations for favorite things */
+  @keyframes float-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px) scale(0.8);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-10px) scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-30px) scale(0.8);
+    }
+  }
+
+  @keyframes bounce-gentle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+
+  .animate-float-up {
+    animation: float-up 3s ease-in-out infinite;
+  }
+
+  .animate-float-up-delayed {
+    animation: float-up 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+  }
+
+  .animate-bounce-gentle {
+    animation: bounce-gentle 2s ease-in-out infinite;
+  }
 }
